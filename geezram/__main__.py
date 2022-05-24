@@ -780,7 +780,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                "Geez|RAM is Online.",
+                "Killua is Online.",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
