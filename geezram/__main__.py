@@ -82,11 +82,11 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hallo, Saya adalah Geez|RAM Robot, Ported dari Queen-Iraa\nBot Manage yang dibuat dan dibesarkan seperti anak sendiri, oleh para manusia yang tidak seberapa di Geez dan RAM"""
+Hallo, Saya adalah Killua Robot, clone dari Queen-Iraa\nBot Manage yang dibuat dalam kegabutan."""
 buttons = [
     [
         InlineKeyboardButton(
-            text="tambahkan saya ke group", url="t.me/geezrambot?startgroup=true"),
+            text="tambahkan saya ke group", url="t.me/gcspryu?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
@@ -111,7 +111,7 @@ buttons = [
 geezram_IMG = "https://telegra.ph/file/3b757c3986ec72f09096c.jpg"
 
 HELP_STRINGS = """
-GEEZ/RAM BOT ‌ٖٖٖٖٖٖٜٖٖٖٖٖٖٜٖٖٖٖٖٖٜٖٖٖٖٖٖٜٖٖٖٖ *Features*\n*» Module command tersedia*\n*» Gunakan / atau ! untuk command*\n*»*\n\n*ㅤㅤㅤㅤㅤㅤ» Perintah Dasar «*\n\n➲ /start : *Start .*\n➲ /Donasi : *Semua karya Geez/Ram adalah gratis, jika anda diminta bayaran berati anda tertipu.*\n➲ /help  : *Command yg tersedia.*\n*  ‣ PM : Saya akan kirimkan semua command.*\n*  ‣ Group : Saya akan kirimkan melalu PM, Semua module yang tersedia.*\n\n*» Untuk command lainnya, silahkan klik tombol dibawah «* """
+KILLUA BOT ‌ٖٖٖٖٖٖٜٖٖٖٖٖٖٜٖٖٖٖٖٖٜٖٖٖٖٖٖٜٖٖٖٖ *Features*\n*» Module command tersedia*\n*» Gunakan / atau ! untuk command*\n*»*\n\n*ㅤㅤㅤㅤㅤㅤ» Perintah Dasar «*\n\n➲ /start : *Start .*\n➲ /Donasi : *Semua karya Geez/Ram adalah gratis, jika anda diminta bayaran berati anda tertipu.*\n➲ /help  : *Command yg tersedia.*\n*  ‣ PM : Saya akan kirimkan semua command.*\n*  ‣ Group : Saya akan kirimkan melalu PM, Semua module yang tersedia.*\n\n*» Untuk command lainnya, silahkan klik tombol dibawah «* """
 
 DONATE_STRING = """Sedekah dan Beramal ke Masjid/mushola terdekat"""
 
@@ -356,7 +356,7 @@ def help_button(update, context):
 
 def geezram_about_callback(update, context):
     query = update.callback_query
-    if query.data == "geezram_":
+    if query.data == "ryu_":
         query.message.edit_text(
             text=f"I'm *{dispatcher.bot.first_name}*, a powerful group management bot built to help you manage your group easily."
             "\nI can restrict users."
@@ -372,8 +372,8 @@ def geezram_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Admins", callback_data="geezram_admin"),
-                    InlineKeyboardButton(text="Notes", callback_data="geezram_notes"),
+                    InlineKeyboardButton(text="Admins", callback_data="ryu_admin"),
+                    InlineKeyboardButton(text="Notes", callback_data="ryu_notes"),
                  ],
                  [
                     InlineKeyboardButton(text="Geez Support", url="https://t.me/GeezSupport"),
@@ -383,7 +383,7 @@ def geezram_about_callback(update, context):
                     InlineKeyboardButton(text="Source Code", url="https://github.com/SangeanSquad/Queen-Iraa"),
                  ],
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="geezram_back"),
+                    InlineKeyboardButton(text="Go Back", callback_data="ryu_back"),
                  ]
                 ]
             ),
