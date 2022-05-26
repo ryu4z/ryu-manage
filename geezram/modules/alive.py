@@ -19,11 +19,11 @@ PHOTO = [
 
 @register(pattern=("/alive"))
 async def awake(event):
-  TEXT = f"**Hallo [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nsaya Geez|RAM Robot, Tidak ada yang spesial dari saya... \n Saya di urus dan dibesarkan layaknya anak sendiri para manusia yg tidak seberapa di Geez dan Ram.**\n━━━━━━━━━━━━━━━━━━━\n\n"
-  TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [GEEZ](https://t.me/GeezSupport),[RAM](https://t.me/ramsupportt)** \n"
+  TEXT = f"**Hallo [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nsaya Killua Robot, Tidak ada yang spesial dari saya... \n.**\n━━━━━━━━━━━━━━━━━━━\n\n"
+  TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [RYU](https://t.me/ryuSupport)** \n"
   TEXT += f"» **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{telever}` \n"
   TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tlhver}` \n"
   TEXT += f"» **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n━━━━━━━━━━━━━━━━━\n\n"
-  BUTTON = [[Button.url("RAM Support", "https://t.me/ramsupportt?start=help"), Button.url("GEEZ Support", "https://t.me/GeezSupport")]]
+  BUTTON = [[Button.url("RAM Support", "https://t.me/ryusupport?start=help")]]
   ran = random.choice(PHOTO)
   await tbot.send_file(event.chat_id, ran, caption=TEXT,  buttons=BUTTON)
