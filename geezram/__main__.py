@@ -108,7 +108,7 @@ buttons = [
     ],
 ]
 
-geezram_IMG = "https://telegra.ph/file/3b757c3986ec72f09096c.jpg"
+geezram_IMG = "https://telegra.ph/file/843a1c944c226afe34001.jpg"
 
 HELP_STRINGS = """
 KILLUA BOT ‌ٖٖٖٖٖٖٜٖٖٖٖٖٖٜٖٖٖٖٖٖٜٖٖٖٖٖٖٜٖٖٖٖ *Features*\n*» Module command tersedia*\n*» Gunakan / atau ! untuk command*\n*»*\n\n*ㅤㅤㅤㅤㅤㅤ» Perintah Dasar «*\n\n➲ /start : *Start .*\n➲ /Donasi : *Semua karya Geez/Ram adalah gratis, jika anda diminta bayaran berati anda tertipu.*\n➲ /help  : *Command yg tersedia.*\n*  ‣ PM : Saya akan kirimkan semua command.*\n*  ‣ Group : Saya akan kirimkan melalu PM, Semua module yang tersedia.*\n\n*» Untuk command lainnya, silahkan klik tombol dibawah «* """
