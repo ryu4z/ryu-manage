@@ -11,9 +11,9 @@ from geezram import telethn as tbot
 
 
 PHOTO = [
- "https://telegra.ph/file/3b757c3986ec72f09096c.jpg",
- "https://telegra.ph/file/b095fea86f234dd53f762.jpg",
- "https://telegra.ph/file/f6f81a6b5b44d8d4fa46e.jpg",
+ "https://telegra.ph/file/843a1c944c226afe34001.jpg",
+ "https://telegra.ph/file/843a1c944c226afe34001.jpg",
+ "https://telegra.ph/file/843a1c944c226afe34001.jpg",
 
 ]
 
