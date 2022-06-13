@@ -1,5 +1,5 @@
 {
-      "name": "Queen Iraa for Geez|RAM",
+      "name": "Killua Bot",
       "description": "A Powerful  Telegram group management bot with anime theme.",
       "keywords": [
          "telegram",
@@ -10,7 +10,7 @@
          "ram"
       ],
     
-   "logo":    "https://telegra.ph/file/3b757c3986ec72f09096c.jpg",  
+   "logo":    "https://telegra.ph/file/843a1c944c226afe34001.jpg",  
    "repository": "https://github.com/SangeanSquad/Queen-Iraa",
    "addons": [
           {
